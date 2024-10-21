@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 
+@layer components{
+  .container{
+    @apply
+}
+}
