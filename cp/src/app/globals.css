@@ -57,14 +57,10 @@
 }
 
 .gu {
-  @apply shadow-[0_2px_9px_2px_rgba(127,127,126,1)] rounded-[40px] flex flex-col;
+  @apply shadow-[0_2px_9px_2px_rgba(127,127,126,1)] rounded-[50px] flex flex-col;
 
   p {
     @apply py-[12px] pl-[10px] font-semibold text-[22px];
-  }
-
-  a {
-    @apply p-[3px] px-[10px] mb-[20px] ml-[20px] border-2 border-[#00a1fc] rounded-[10px] w-fit text-[#00a1fc];
   }
 }
 

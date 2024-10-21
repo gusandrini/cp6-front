@@ -19,27 +19,49 @@ export default function Cp() {
             </div>
             <div className="conteudo">
                 <h1>CheckPoints</h1>
-                <p></p>
+                <p>Ao longo do curso, os CheckPoints são, momentos essenciais para acompanhar nosso progresso e garantir que estamos avançando de forma <br />
+                sólida em direção aos nossos objetivos. Essas avaliações intermediárias permitem ajustes no nosso aprendizado e desenvolvimento de <br />
+                projetos, ajudando a equipe a se manter alinhada com as metas propostas. <br />
+                <br />
+                Cada CheckPoint reflete uma etapa importante do nosso crescimento acadêmico, e aqui você pode conferir nossas conquistas até o <br />
+                momento.</p>
             </div>
             <div className="cards-i">
+                <h1>Nossa equipe:</h1>
                 <div className="duda">
                     <Image src={Duda} width={500} height={300} alt="integrante Eduarda" />
-                    <p>Eduarda Tiemi Akamini Machado<br />RM:554756</p>
+                    <nav>
+                        <ul>
+                            <li><Link href="/integrantes/duda">Eduarda Tiemi <br />RM:554756</Link></li>
+                        </ul>
+                    </nav>
                 </div>
 
                 {/* <div className="pizzi">
                     <Image src={} width={500} height={300} alt="integrante Felipe Pizzinato" />
-                    <p>Victor Agrela<br />RM:557345</p>
+                    <nav>
+                        <ul>
+                            <li><Link href="/integrantes/pizzi">Felipe Pizzinato <br/> RM: ?????</li>
+                        </ul>
+                    </nav>
                 </div>
 
                 <div className="sora">
                     <Image src={} width={500} height={300} alt="integrante Felipe Sora" />
-                    <p>Victor Agrela<br />RM:557345</p>
+                    <nav>
+                        <ul>
+                            <li><Link href="/integrantes/sora">Felipe Sora <br/> RM: ?????</li>
+                        </ul>
+                    </nav>
                 </div> */}
 
                 <div className="gu">
                     <Image src={Gu} width={500} height={300} alt="integrante gustavo" />
-                    <p>Gustavo de Oliveira Turci Sandrini<br />RM:557505</p>
+                    <nav>
+                        <ul>
+                            <li><Link href="/integrantes/gu">Gustavo Sandrini <br />RM:557505</Link></li>
+                        </ul>
+                    </nav>
                 </div>
 
                 
