@@ -4,8 +4,8 @@ import Link from 'next/link';
 export default function Home() {
     return (
         <div>
-            <div className="container">
-                <p>home</p>
+            <div className="containerHome">
+                <p>HOME</p>
             </div>
         </div>
     )

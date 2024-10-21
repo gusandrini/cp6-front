@@ -5,7 +5,7 @@ export default function Cabecalho() {
     return (
         <div>
             <header>
-                <div className="container">
+                <div className="menu">
                     <nav>
                         <ul>
                             <li><Link href="/">Home</Link></li>
