@@ -39,6 +39,35 @@
 
 }
 
+ /* Estilos para os cards */
+ .cards-i {
+  @apply flex flex-row justify-evenly p-[20px];
+
+  img {
+    @apply w-[400px] h-[480px] rounded-[40px];
+  }
+}
+
+.duda {
+  @apply shadow-[0_2px_9px_2px_rgba(127,127,126,1)] rounded-[40px] flex flex-col;
+
+  p {
+    @apply py-[12px] pl-[10px] font-semibold text-[22px];
+  }
+}
+
+.gu {
+  @apply shadow-[0_2px_9px_2px_rgba(127,127,126,1)] rounded-[40px] flex flex-col;
+
+  p {
+    @apply py-[12px] pl-[10px] font-semibold text-[22px];
+  }
+
+  a {
+    @apply p-[3px] px-[10px] mb-[20px] ml-[20px] border-2 border-[#00a1fc] rounded-[10px] w-fit text-[#00a1fc];
+  }
+}
+
 @layer components {
   footer {
     @apply bg-black flex justify-around items-baseline text-white p-0;
