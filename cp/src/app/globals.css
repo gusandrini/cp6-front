@@ -14,26 +14,29 @@
   /* Menu */
   .menu {
     @apply m-auto bg-white flex flex-col  bg-black;
-  }
 
-  nav {
-    @apply flex items-center justify-evenly;
-  }
+    nav ul li{
+      @apply px-5 py-2 text-[19px] text-white rounded-full transition duration-500;
+  
+    }
 
-  nav ul li {
-    @apply inline-block;
-  }
+    nav {
+      @apply flex items-center justify-evenly;
+    }
+  
+    nav ul li {
+      @apply inline-block;
+    }
 
-  nav ul li{
-    @apply px-5 py-2 text-[19px] text-white rounded-full transition duration-500;
-
+    
   }
 }
   
 @layer components {
   .containerHome {
-    @apply m-[20px]  flex items-center justify-evenly;
+    @apply m-[20px]  items-center justify-evenly;
   }
+
 }
 
 @layer components {
