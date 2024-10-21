@@ -9,8 +9,9 @@ export default function Cabecalho() {
                     <nav>
                         <ul>
                             <li><Link href="/">Home</Link></li>
-                            <li><Link href="/">Home</Link></li>
-                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="/cp">CP</Link></li>
+                            <li><Link href="/gs">GS</Link></li>
+                            <li><Link href="/challenge">Challenge</Link></li>
                         </ul>
                     </nav>
                 </div>
