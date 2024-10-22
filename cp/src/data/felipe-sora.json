@@ -1,29 +1,29 @@
 {
-    "checkpoints": [
-        {
-            "id": 1,
-            "nome": "Jogo da Velha",
-            "materia": "python",
-            "descricao": "Um jogo da velha feito em Python",
-            "nota": 9
-        }
-    ],
-    "globalSolution": [
-        {
-            "id": 1,
-            "nome": "OceanAlert",
-            "materia": "front-end",
-            "descricao": "Um projeto feito em HTML, CSS, JS para tentar salvar a vida dos oceanos",
-            "nota": 70
-        }
-    ],
-    "challenge": [
-        {
-        "id": 1,
-        "nome": "Dados para Treinamento de uma IA",
-        "materia": "IA & ChatBot",
-        "descricao": "Conjunto de dados para melhorar o desempenho de uma futura IA",
-        "nota": 100
-        }
-    ] 
+  "checkpoints": [
+    {
+      "id": 1,
+      "nome": "Jogo da Velha",
+      "materia": "python",
+      "descricao": "Um jogo da velha feito em Python",
+      "nota": 9
+    }
+  ],
+  "globalSolution": [
+    {
+      "id": 1,
+      "nome": "OceanAlert",
+      "materia": "front-end",
+      "descricao": "Um projeto feito em HTML, CSS, JS para tentar salvar a vida dos oceanos",
+      "nota": 70
+    }
+  ],
+  "challenge": [
+    {
+      "id": 1,
+      "nome": "Dados para Treinamento de uma IA",
+      "materia": "IA & ChatBot",
+      "descricao": "Conjunto de dados para melhorar o desempenho de uma futura IA",
+      "nota": 100
+    }
+  ]
 }
