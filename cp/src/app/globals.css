@@ -210,3 +210,35 @@ header{
 .icone_adicionar:hover{
   @apply scale-110;
 }
+
+/* ESTILIZAÇÃO DAS PÁGINAS DOS TRABALHOS DE CHECKPOINTS */
+
+.container_cadastro{
+  @apply my-[44px] mx-[44px] mb-[100px];
+}
+
+.container_cadastro h1{
+  @apply text-[2.2rem] mt-[42px];
+  font-family: "Krona One", sans-serif;
+}
+
+.label_input {
+  @apply flex flex-col; 
+}
+
+.label_input label {
+  @apply text-[1.2rem]; 
+}
+
+.label_input input {
+  @apply text-[1.2rem] w-[40vw] rounded-[5px] p-[5px] mb-[1%]; 
+}
+
+.botao_cadastrar {
+  @apply bg-[var(--cor-secundaria)] p-[10px] rounded-[10px] text-[1.2rem] transition-transform duration-300 ease-in-out;
+}
+
+.botao_cadastrar:hover{
+  @apply scale-110;
+}
+

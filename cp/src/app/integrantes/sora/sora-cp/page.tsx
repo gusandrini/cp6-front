@@ -55,7 +55,7 @@ export default function Sora() {
                 </div>
             ))}
             <div className="caixa_adicionar">
-                <Link href="#" className="links_adiconar"><Image src={iconeAdicionar} alt="Icone de Adicionar" className="icone_adicionar"/></Link>
+                <Link href="/integrantes/sora/sora-cp/cad-cp-sora" className="links_adiconar"><Image src={iconeAdicionar} alt="Icone de Adicionar" className="icone_adicionar"/></Link>
             </div>
         </div>
     );

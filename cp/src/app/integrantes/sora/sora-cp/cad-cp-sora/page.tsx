@@ -44,33 +44,33 @@ export default function CadCpSora() {
       }
 
     return(
-        <div>
+        <div className="container_cadastro">
             <h1>Cadastro de CheckPoint</h1>
 
             <div>
-                <form onSubmit={handleSubmit} className="max-w-sm mx-auto">
-                    <div>
-                        <label htmlFor="idNome" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nome do Checkpoint:</label>
-                        <input type="text" name="nome" id="idNome" className="text-black"  value={trabalho.nome} onChange={(e)=> setTrabalho({...trabalho,nome:e.target.value})} placeholder="Nome do Produto"/>
+                <form onSubmit={handleSubmit} className="container_formulario">
+                    <div className="label_input">
+                        <label htmlFor="idNome">Nome do Checkpoint:</label>
+                        <input type="text" name="nome" id="idNome" className="text-black"  value={trabalho.nome} onChange={(e)=> setTrabalho({...trabalho,nome:e.target.value})} placeholder="Nome do CheckPoint"/>
                     </div>
 
-                    <div>
-                        <label htmlFor="idDescricao" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Descrição do Checkpoint:</label>
-                        <input type="text" name="descricao" id="idDescricao" className="text-black" value={trabalho.descricao} onChange={(e)=> setTrabalho({...trabalho,descricao:e.target.value})} placeholder="Descrição do Produto"/>
+                    <div className="label_input">
+                        <label htmlFor="idDescricao">Descrição do Checkpoint:</label>
+                        <input type="text" name="descricao" id="idDescricao" className="text-black" value={trabalho.descricao} onChange={(e)=> setTrabalho({...trabalho,descricao:e.target.value})} placeholder="Descrição do CheckPoint"/>
                     </div>
 
-                    <div>
-                        <label htmlFor="idMateria" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Matéria do CheckPoint:</label>
+                    <div className="label_input">
+                        <label htmlFor="idMateria">Matéria do CheckPoint:</label>
                         <input type="text" name="materia" id="idMateria" className="text-black" value={trabalho.materia} onChange={(e)=> setTrabalho({...trabalho,materia:e.target.value})} placeholder="Matéria do CheckPoint"/>
                     </div>
 
-                    <div>
+                    <div className="label_input">
                         <label htmlFor="idNota">Nota do CheckPoint:</label>
                         <input type="number" name="nota" id="idNota" className="text-black" value={trabalho.nota} onChange={(e)=> setTrabalho({...trabalho,nota: parseInt(e.target.value) })}/>
                     </div>
 
                     <div>
-                        <button type="submit"  className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Cadastrar</button>
+                        <button type="submit" className="botao_cadastrar">Cadastrar</button>
                     </div>
                 </form>
             </div>
