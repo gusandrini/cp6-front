@@ -52,12 +52,42 @@ header{
 
 
 /* ESTILIZAÇÃO DA HOME PAGE */
-@layer components {
-  .containerHome {
-    @apply m-[20px]  items-center justify-evenly;
-  }
-
+.container_home {
+  @apply my-[44px] mx-[44px] mb-[100px];
 }
+
+.introducao h1 {
+  @apply text-[2.2rem];
+  font-family: "Krona One", sans-serif;
+}
+
+.introducao p {
+  @apply text-[1.1rem] max-w-[95vw];
+}
+
+.objetivo h1 {
+  @apply text-[2.2rem] mt-[42px];
+  font-family: "Krona One", sans-serif;
+}
+
+.objetivo p {
+  @apply text-[1.1rem] max-w-[95vw];
+}
+
+.estrutura h1 {
+  @apply text-[2.2rem] mt-[42px];
+  font-family: "Krona One", sans-serif;
+}
+
+.estrutura p {
+  @apply text-[1.1rem] max-w-[95vw];
+}
+
+.estrutura ul {
+  @apply text-[1.1rem] my-[30px] list-disc list-inside; /* Altera o estilo da lista para circle */
+}
+
+
 
  /* ESTILIZAÇÃO DO CONTEUDO DO CP */
  .cards-i {
