@@ -16,10 +16,10 @@ export default function Challenge() {
             <div className="integrantes">
                 <nav>
                     <ul>
-                        <li><Link href="/integrantes/duda-challe">Eduarda Tiemi</Link></li>
-                        <li><Link href="/integrantes/pizzi-challe">Felipe Pizzinato</Link></li>
-                        <li><Link href="/integrantes/sora-challe">Felipe Sora</Link></li>
-                        <li><Link href="/integrantes/gu-challe">Gustavo Sandrini</Link></li>
+                        <li><Link href="/integrantes/duda/duda-challe">Eduarda Tiemi</Link></li>
+                        <li><Link href="/integrantes/pizzi/pizzi-challe">Felipe Pizzinato</Link></li>
+                        <li><Link href="/integrantes/sora/sora-challe">Felipe Sora</Link></li>
+                        <li><Link href="/integrantes/gu/gu-challe">Gustavo Sandrini</Link></li>
                     </ul>
                 </nav>
             </div>

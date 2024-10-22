@@ -21,7 +21,7 @@ export default function Cp() {
                     <Image src={Duda} width={500} height={300} alt="integrante Eduarda" />
                     <nav>
                         <ul>
-                            <li><Link href="/integrantes/duda-cp">Eduarda Tiemi <br />RM:554756</Link></li>
+                            <li><Link href="/integrantes/duda/duda-cp">Eduarda Tiemi <br />RM:554756</Link></li>
                         </ul>
                     </nav>
                 </div>
@@ -30,7 +30,7 @@ export default function Cp() {
                     <Image src={} width={500} height={300} alt="integrante Felipe Pizzinato" />
                     <nav>
                         <ul>
-                            <li><Link href="/integrantes/pizzi-cp">Felipe Pizzinato <br/> RM: ?????</li>
+                            <li><Link href="/integrantes/pizzi/pizzi-cp">Felipe Pizzinato <br/> RM: ?????</li>
                         </ul>
                     </nav>
                 </div>
@@ -39,7 +39,7 @@ export default function Cp() {
                     <Image src={} width={500} height={300} alt="integrante Felipe Sora" />
                     <nav>
                         <ul>
-                            <li><Link href="/integrantes/sora-cp">Felipe Sora <br/> RM: ?????</li>
+                            <li><Link href="/integrantes/sora/sora-cp">Felipe Sora <br/> RM: ?????</li>
                         </ul>
                     </nav>
                 </div> */}
@@ -48,7 +48,7 @@ export default function Cp() {
                     <Image src={Gu} width={500} height={300} alt="integrante gustavo" />
                     <nav>
                         <ul>
-                            <li><Link href="/integrantes/gu-cp">Gustavo Sandrini <br />RM:557505</Link></li>
+                            <li><Link href="/integrantes/gu/gu-cp">Gustavo Sandrini <br />RM:557505</Link></li>
                         </ul>
                     </nav>
                 </div>

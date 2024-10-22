@@ -15,10 +15,10 @@ export default function Gs() {
             <div className="integrantes">
                 <nav>
                     <ul>
-                        <li><Link href="/integrantes/duda-gs">Eduarda Tiemi</Link></li>
-                        <li><Link href="/integrantes/pizzi-gs">Felipe Pizzinato</Link></li>
-                        <li><Link href="/integrantes/sora-gs">Felipe Sora</Link></li>
-                        <li><Link href="/integrantes/gu-gs">Gustavo Sandrini</Link></li>
+                        <li><Link href="/integrantes/duda/duda-gs">Eduarda Tiemi</Link></li>
+                        <li><Link href="/integrantes/pizzi/pizzi-gs">Felipe Pizzinato</Link></li>
+                        <li><Link href="/integrantes/sora/sora-gs">Felipe Sora</Link></li>
+                        <li><Link href="/integrantes/gu/gu-gs">Gustavo Sandrini</Link></li>
                     </ul>
                 </nav>
             </div>
