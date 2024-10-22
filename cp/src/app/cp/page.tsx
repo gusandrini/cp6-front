@@ -23,7 +23,7 @@ export default function Cp() {
                     <ul>
                         <li><Image src={fotoEduarda} width={182} height={176} alt="Foto Eduarda" className="foto_integrante"/><Link href="/integrantes/duda/duda-gs" className="links_integrantes">Eduarda Tiemi</Link></li>
                         <li><Image src={Github} width={182} height={176} alt="Foto Felipe Pizzinato" className="foto_integrante"/><Link href="/integrantes/pizzi/pizzi-gs" className="links_integrantes">Felipe Pizzinato</Link></li>
-                        <li><Image src={fotoFelipeSora} width={182} height={176} alt="Foto Felipe Sora" className="foto_integrante"/><Link href="/integrantes/sora/sora-gs" className="links_integrantes">Felipe Sora</Link></li>
+                        <li><Image src={fotoFelipeSora} width={182} height={176} alt="Foto Felipe Sora" className="foto_integrante"/><Link href="/integrantes/sora/sora-cp" className="links_integrantes">Felipe Sora</Link></li>
                         <li><Image src={fotoGustavo} width={182} height={176} alt="Foto Gustavo" className="foto_integrante"/><Link href="/integrantes/gu/gu-gs" className="links_integrantes">Gustavo Sandrini</Link></li>
                     </ul>
                 </nav>
