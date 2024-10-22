@@ -1,10 +1,9 @@
-import Link from "next/link";
 
-export default function Gu() {
+export default function Duda() {
     return (
         <div>
             <div className="container">
-                <p>gu</p>
+                <p>duda cp</p>
             </div>
         </div>
     )

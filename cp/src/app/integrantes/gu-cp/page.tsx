@@ -1,9 +1,10 @@
+import Link from "next/link";
 
-export default function Pizzi() {
+export default function Gu() {
     return (
         <div>
             <div className="container">
-                <p>pizzi</p>
+                <p>gu cp</p>
             </div>
         </div>
     )

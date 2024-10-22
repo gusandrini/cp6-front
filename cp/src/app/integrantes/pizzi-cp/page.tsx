@@ -1,9 +1,9 @@
 
-export default function Duda() {
+export default function Pizzi() {
     return (
         <div>
             <div className="container">
-                <p>duda</p>
+                <p>pizzi -cp</p>
             </div>
         </div>
     )
