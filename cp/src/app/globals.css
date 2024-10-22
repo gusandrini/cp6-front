@@ -1,36 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+
+:root {
+  --cor-principal: #1E3E62;
+  --cor-secundario: #0B192C;
+
+  --fonte-principal: "Krona One", sans-serif;
+  --fonte-secundaria:"Montserrat", sans-serif;
+}
+
+* {
+  @apply m-0 p-0;
+
+}
+
+body{
+  @apply bg-[var(--cor-principal)] text-white;
+  font-family: var(--fonte-secundaria);
+}
+
 /* ESTILIZAÇÃO DO CABELALHO */
-@layer base {
-  * {
-    @apply m-0 p-0 box-border no-underline font-sans;
-  }
+
+header{
+  @apply bg-[var(--cor-secundario)] text-center;
 }
 
-@layer components {
-  /* Menu */
-  .menu {
-    @apply m-auto bg-white flex flex-col  bg-black;
-
-    nav ul li{
-      @apply px-5 py-2 text-[19px] text-white rounded-full transition duration-500;
-  
-    }
-
-    nav {
-      @apply flex items-center justify-evenly;
-    }
-  
-    nav ul li {
-      @apply inline-block;
-    }
-
-    
-  }
+.titulo{
+  @apply text-[3rem] pt-[30px];
+  font-family: "Krona One", sans-serif;
 }
+
+/* ESTILIZAÇÃO DO MENU */
+.menu > nav > ul {
+  @apply flex justify-center gap-[33px] pt-[33px] pb-[26px];
+}
+
+.menu > nav > ul > li {
+  @apply list-none transition-transform duration-300 ease-in-out;
+}
+
+.menu > nav > ul > li:hover {
+  @apply scale-110;
+}
+
+
 
 /* ESTILIZAÇÃO DA HOME PAGE */
 @layer components {
