@@ -5,14 +5,13 @@ import Image from "next/image";
 
 export default function Cp() {
     return (
-        <div>
+        <div className="container_conteudo">
             <div className="conteudo">
                 <h1>CheckPoints</h1>
                 <p>Ao longo do curso, os CheckPoints são, momentos essenciais para acompanhar nosso progresso e garantir que estamos avançando de forma <br />
                 sólida em direção aos nossos objetivos. Essas avaliações intermediárias permitem ajustes no nosso aprendizado e desenvolvimento de <br />
-                projetos, ajudando a equipe a se manter alinhada com as metas propostas. <br />
-                <br />
-                Cada CheckPoint reflete uma etapa importante do nosso crescimento acadêmico, e aqui você pode conferir nossas conquistas até o <br />
+                projetos, ajudando a equipe a se manter alinhada com as metas propostas.</p>
+                <p>Cada CheckPoint reflete uma etapa importante do nosso crescimento acadêmico, e aqui você pode conferir nossas conquistas até o <br />
                 momento.</p>
             </div>
             <div className="cards-i">

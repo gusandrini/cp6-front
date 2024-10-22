@@ -49,8 +49,6 @@ header{
   @apply scale-110;
 }
 
-
-
 /* ESTILIZAÇÃO DA HOME PAGE */
 .container_home {
   @apply my-[44px] mx-[44px] mb-[100px];
@@ -87,31 +85,48 @@ header{
   @apply text-[1.1rem] my-[30px] list-disc list-inside; /* Altera o estilo da lista para circle */
 }
 
+/* ESTILIZAÇÃO DAS PÁGINAS DOS TRABALHOS */
 
-
- /* ESTILIZAÇÃO DO CONTEUDO DO CP */
- .cards-i {
-  @apply flex flex-row justify-evenly p-[20px];
-
-  img {
-    @apply w-[400px] h-[480px] rounded-[40px];
-  }
+.container_conteudo{
+  @apply my-[44px] mx-[44px] mb-[100px];
 }
 
-.duda {
-  @apply shadow-[0_2px_9px_2px_rgba(127,127,126,1)] rounded-[40px] flex flex-col;
-
-  p {
-    @apply py-[12px] pl-[10px] font-semibold text-[22px];
-  }
+.conteudo h1{
+  @apply text-[2.2rem] mt-[42px];
+  font-family: "Krona One", sans-serif;
 }
 
-.gu {
-  @apply shadow-[0_2px_9px_2px_rgba(127,127,126,1)] rounded-[50px] flex flex-col;
+.conteudo p{
+  @apply text-[1.1rem] max-w-[95vw] mt-[10px];
+}
 
-  p {
-    @apply py-[12px] pl-[10px] font-semibold text-[22px];
-  }
+.integrantes h1{
+  @apply text-[2.2rem] mt-[42px];
+  font-family: "Krona One", sans-serif;
+}
+
+.integrantes nav{
+  @apply mt-[42px]
+}
+
+.integrantes nav ul {
+  @apply flex items-center gap-[60px];
+}
+
+.integrantes nav ul li {
+  @apply bg-white w-[310px] flex flex-col items-center rounded-[10px] shadow-md;
+}
+
+.foto_integrante {
+  @apply pt-[30px];
+}
+
+.links_integrantes {
+  @apply py-[10px] text-black transition-transform duration-300 ease-in-out;
+}
+
+.links_integrantes:hover{
+  @apply scale-110;
 }
 
 /* ESTILIZAÇÃO DO FOOTER */

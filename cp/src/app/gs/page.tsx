@@ -1,24 +1,30 @@
 import Link from "next/link";
+import Image from 'next/image';
+
+import Github from '../../Images/github.png';
+import fotoEduarda from '../../Images/foto-duda-750px.jpg';
+import fotoGustavo from '../../Images/foto-gustavo-750px.jpg';
+import fotoFelipeSora from '../../Images/foto-felipe-sora-750px.jpg'
 
 export default function Gs() {
     return (
-        <div>
+        <div className="container_conteudo">
             <div className="conteudo">
                 <h1>GlobalSolution</h1>
                 <p>As avaliações de Global Solution são ponto alto do nosso aprendizado, onde aplicamos de forma integrada os conhecimentos adquiridos ao <br />
                 logo das disciplinas. Esses projetos desafiadores exigem que desenvolvamos soluções criativas e abrangentes, combinando diversas áreas <br />
-                de estudo para resolver problemas complexos.
-                <br />
-                Neste portifólio, você encontrará nossos projetos de Global Solution, que refletem não apenas o que aprendemos, mas também como <br />
+                de estudo para resolver problemas complexos.</p>
+                <p>Neste portifólio, você encontrará nossos projetos de Global Solution, que refletem não apenas o que aprendemos, mas também como <br />
                 conseguimos aplicar esse aprendizado em contextos atuais.</p>
             </div>
             <div className="integrantes">
+                <h1>Nossa Equipe</h1>
                 <nav>
                     <ul>
-                        <li><Link href="/integrantes/duda/duda-gs">Eduarda Tiemi</Link></li>
-                        <li><Link href="/integrantes/pizzi/pizzi-gs">Felipe Pizzinato</Link></li>
-                        <li><Link href="/integrantes/sora/sora-gs">Felipe Sora</Link></li>
-                        <li><Link href="/integrantes/gu/gu-gs">Gustavo Sandrini</Link></li>
+                        <li><Image src={fotoEduarda} width={182} height={176} alt="Foto Eduarda" className="foto_integrante"/><Link href="/integrantes/duda/duda-gs" className="links_integrantes">Eduarda Tiemi</Link></li>
+                        <li><Image src={Github} width={182} height={176} alt="Foto Felipe Pizzinato" className="foto_integrante"/><Link href="/integrantes/pizzi/pizzi-gs" className="links_integrantes">Felipe Pizzinato</Link></li>
+                        <li><Image src={fotoFelipeSora} width={182} height={176} alt="Foto Felipe Sora" className="foto_integrante"/><Link href="/integrantes/sora/sora-gs" className="links_integrantes">Felipe Sora</Link></li>
+                        <li><Image src={fotoGustavo} width={182} height={176} alt="Foto Gustavo" className="foto_integrante"/><Link href="/integrantes/gu/gu-gs" className="links_integrantes">Gustavo Sandrini</Link></li>
                     </ul>
                 </nav>
             </div>
