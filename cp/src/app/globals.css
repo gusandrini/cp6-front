@@ -160,5 +160,53 @@ header{
 }
 
 
+/* ESTILIZAÇÃO DAS PÁGINAS DOS TRABALHOS DE CHECKPOINTS */
 
+.container_trabalhos{
+  @apply my-[44px] mx-[44px] mb-[100px];
+}
 
+.container_trabalhos h1{
+  @apply text-[2.2rem] mt-[42px];
+  font-family: "Krona One", sans-serif;
+}
+
+.caixa_trabalhos {
+  @apply mt-[56px] bg-white flex items-center rounded-[10px] w-[50vw] gap-[20px] p-[20px] shadow-md;
+}
+
+.texto_caixa {
+  @apply text-black text-[1.2rem];
+}
+
+.texto_icones_caixa {
+  @apply flex gap-[30vw];
+}
+
+.icone_check {
+  @apply w-[100px] h-[100px];
+}
+
+.icones {
+  @apply w-[42px] h-[42px];
+}
+
+.botoes_trabalhos{
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+.botoes_trabalhos:hover{
+  @apply scale-110
+}
+
+.caixa_adicionar {
+  @apply bg-transparent border-[5px] border-white w-[50vw] p-[20px] mt-[56px] rounded-[10px];
+}
+
+.icone_adicionar {
+  @apply mx-auto transition-transform duration-300 ease-in-out;
+}
+
+.icone_adicionar:hover{
+  @apply scale-110;
+}
