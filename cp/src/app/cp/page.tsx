@@ -6,17 +6,6 @@ import Image from "next/image";
 export default function Cp() {
     return (
         <div>
-            <div className="container">
-                <p>challenge</p>
-                    <nav>
-                        <ul>
-                            <li><Link href="/integrantes/gu">gu</Link></li>
-                            <li><Link href="/integrantes/duda">duda</Link></li>
-                            <li><Link href="/integrantes/pizzi">pizzi</Link></li>
-                            <li><Link href="/integrantes/sora">sora</Link></li>
-                        </ul>
-                    </nav>
-            </div>
             <div className="conteudo">
                 <h1>CheckPoints</h1>
                 <p>Ao longo do curso, os CheckPoints são, momentos essenciais para acompanhar nosso progresso e garantir que estamos avançando de forma <br />
