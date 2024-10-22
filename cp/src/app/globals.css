@@ -9,7 +9,7 @@
 
 :root {
   --cor-principal: #1E3E62;
-  --cor-secundario: #0B192C;
+  --cor-secundaria: #0B192C;
 
   --fonte-principal: "Krona One", sans-serif;
   --fonte-secundaria:"Montserrat", sans-serif;
@@ -28,7 +28,7 @@ body{
 /* ESTILIZAÇÃO DO CABELALHO */
 
 header{
-  @apply bg-[var(--cor-secundario)] text-center;
+  @apply bg-[var(--cor-secundaria)] text-center;
 }
 
 .titulo{
@@ -59,16 +59,6 @@ header{
 
 }
 
-/* ESTILIZAÇÃO DO FOOTER */
-@layer components {
-  footer {
-    @apply bg-black flex justify-around items-baseline text-white p-0;
-    ::marker {
-      @apply text-black;
-    }
-  }
-}
-
  /* ESTILIZAÇÃO DO CONTEUDO DO CP */
  .cards-i {
   @apply flex flex-row justify-evenly p-[20px];
@@ -93,5 +83,37 @@ header{
     @apply py-[12px] pl-[10px] font-semibold text-[22px];
   }
 }
+
+/* ESTILIZAÇÃO DO FOOTER */
+
+.rodape {
+  @apply bg-[var(--cor-secundaria)];
+}
+
+.rodape h2 {
+  @apply pt-[27px] text-center text-[1.2em];
+}
+
+.container_redes {
+  @apply pt-[30px] pb-[30px] flex gap-[99px] justify-center;
+}
+
+.redes {
+  @apply flex flex-col items-center;
+}
+
+.redes ul {
+  @apply pt-[10px] flex flex-col items-center;
+}
+
+.redes ul li{
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+.redes ul li:hover{
+  @apply scale-110;
+}
+
+
 
 
