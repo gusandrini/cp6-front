@@ -31,7 +31,8 @@
     
   }
 }
-  
+
+/* ESTILIZAÇÃO DA HOME PAGE */
 @layer components {
   .containerHome {
     @apply m-[20px]  items-center justify-evenly;
@@ -39,7 +40,17 @@
 
 }
 
- /* Estilos para os cards */
+/* ESTILIZAÇÃO DO FOOTER */
+@layer components {
+  footer {
+    @apply bg-black flex justify-around items-baseline text-white p-0;
+    ::marker {
+      @apply text-black;
+    }
+  }
+}
+
+ /* ESTILIZAÇÃO DO CONTEUDO DO CP */
  .cards-i {
   @apply flex flex-row justify-evenly p-[20px];
 
@@ -64,11 +75,4 @@
   }
 }
 
-@layer components {
-  footer {
-    @apply bg-black flex justify-around items-baseline text-white p-0;
-    ::marker {
-      @apply text-black;
-    }
-  }
-}
+
