@@ -1,7 +1,10 @@
 import Link from 'next/link';
-import Gu from '../../Images/foto-cv.jpg'
-import Duda from '../../Images/foto-duda.jpg'
 import Image from "next/image";
+
+import Github from '../../Images/github.png';
+import fotoEduarda from '../../Images/foto-duda-750px.jpg';
+import fotoGustavo from '../../Images/foto-gustavo-750px.jpg';
+import fotoFelipeSora from '../../Images/foto-felipe-sora-750px.jpg'
 
 export default function Cp() {
     return (
@@ -14,45 +17,16 @@ export default function Cp() {
                 <p>Cada CheckPoint reflete uma etapa importante do nosso crescimento acadêmico, e aqui você pode conferir nossas conquistas até o <br />
                 momento.</p>
             </div>
-            <div className="cards-i">
-                <h1>Nossa equipe:</h1>
-                <div className="duda">
-                    <Image src={Duda} width={500} height={300} alt="integrante Eduarda" />
-                    <nav>
-                        <ul>
-                            <li><Link href="/integrantes/duda/duda-cp">Eduarda Tiemi <br />RM:554756</Link></li>
-                        </ul>
-                    </nav>
-                </div>
-
-                {/* <div className="pizzi">
-                    <Image src={} width={500} height={300} alt="integrante Felipe Pizzinato" />
-                    <nav>
-                        <ul>
-                            <li><Link href="/integrantes/pizzi/pizzi-cp">Felipe Pizzinato <br/> RM: ?????</li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <div className="sora">
-                    <Image src={} width={500} height={300} alt="integrante Felipe Sora" />
-                    <nav>
-                        <ul>
-                            <li><Link href="/integrantes/sora/sora-cp">Felipe Sora <br/> RM: ?????</li>
-                        </ul>
-                    </nav>
-                </div> */}
-
-                <div className="gu">
-                    <Image src={Gu} width={500} height={300} alt="integrante gustavo" />
-                    <nav>
-                        <ul>
-                            <li><Link href="/integrantes/gu/gu-cp">Gustavo Sandrini <br />RM:557505</Link></li>
-                        </ul>
-                    </nav>
-                </div>
-
-                
+            <div className="integrantes">
+                <h1>Nossa Equipe</h1>
+                <nav>
+                    <ul>
+                        <li><Image src={fotoEduarda} width={182} height={176} alt="Foto Eduarda" className="foto_integrante"/><Link href="/integrantes/duda/duda-gs" className="links_integrantes">Eduarda Tiemi</Link></li>
+                        <li><Image src={Github} width={182} height={176} alt="Foto Felipe Pizzinato" className="foto_integrante"/><Link href="/integrantes/pizzi/pizzi-gs" className="links_integrantes">Felipe Pizzinato</Link></li>
+                        <li><Image src={fotoFelipeSora} width={182} height={176} alt="Foto Felipe Sora" className="foto_integrante"/><Link href="/integrantes/sora/sora-gs" className="links_integrantes">Felipe Sora</Link></li>
+                        <li><Image src={fotoGustavo} width={182} height={176} alt="Foto Gustavo" className="foto_integrante"/><Link href="/integrantes/gu/gu-gs" className="links_integrantes">Gustavo Sandrini</Link></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     )
