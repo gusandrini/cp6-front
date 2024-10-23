@@ -46,8 +46,6 @@ export default function CadCpSora() {
     return(
         <div className="container_cadastro">
             <h1>Cadastro de CheckPoint</h1>
-
-            <div>
                 <form onSubmit={handleSubmit} className="container_formulario">
                     <div className="label_input">
                         <label htmlFor="idNome">Nome do Checkpoint:</label>
@@ -73,7 +71,6 @@ export default function CadCpSora() {
                         <button type="submit" className="botao_cadastrar">Cadastrar</button>
                     </div>
                 </form>
-            </div>
         </div>
     );
 }

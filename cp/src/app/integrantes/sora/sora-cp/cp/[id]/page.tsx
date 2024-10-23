@@ -83,9 +83,10 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
 
     return (
         <div>
-            <div>
+            <div className="container_cadastro">
+                <h1>Atualização de CheckPoint</h1>
                 <form onSubmit={handleSubmit}>
-                    <div>
+                    <div className="label_input">
                         <label htmlFor="idNome">Nome do Trabalho:</label>
                         <input
                             type="text"
@@ -98,7 +99,7 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
                             onChange={(e) => setTrabalho({ ...trabalho, nome: e.target.value })}
                         />
                     </div>
-                    <div>
+                    <div className="label_input">
                         <label htmlFor="idDescricao">Descrição do Trabalho:</label>
                         <input
                             type="text"
@@ -111,7 +112,7 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
                             onChange={(e) => setTrabalho({ ...trabalho, descricao: e.target.value })}
                         />
                     </div>
-                    <div>
+                    <div className="label_input">
                         <label htmlFor="idMateria">Matéria do Trabalho:</label>
                         <input
                             type="text"
@@ -124,7 +125,7 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
                             onChange={(e) => setTrabalho({ ...trabalho, materia: e.target.value })}
                         />
                     </div>
-                    <div>
+                    <div className="label_input">
                         <label htmlFor="idNota">Nota do Trabalho:</label>
                         <input
                             type="number"
@@ -138,7 +139,7 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
                         />
                     </div>
                     <div>
-                        <button type="submit">Atualizar</button>
+                        <button type="submit" className="botao_cadastrar">Atualizar</button>
                     </div>
                 </form>
             </div>
