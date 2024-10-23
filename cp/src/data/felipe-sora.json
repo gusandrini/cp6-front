@@ -6,6 +6,13 @@
       "materia": "python",
       "descricao": "Um jogo da velha feito em Python",
       "nota": 9
+    },
+    {
+      "id": 2,
+      "nome": "teste",
+      "descricao": "teste",
+      "materia": "teste",
+      "nota": 2
     }
   ],
   "globalSolution": [

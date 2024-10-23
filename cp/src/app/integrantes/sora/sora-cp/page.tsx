@@ -1,6 +1,7 @@
 "use client";
 import { TipoTrabalhos } from "@/types";
 import { useEffect, useState } from "react";
+import { useRouter } from 'next/navigation';
 import Image from "next/image";
 import Link from 'next/link';
 
@@ -9,14 +10,17 @@ import iconeEditar from "@/Images/icone-editar.png";
 import iconeApagar from "@/Images/icone-apagar.png";
 import iconeAdicionar from "@/Images/icone-adicionar.png";
 
+
 export default function Sora() {
+
+    const navigate = useRouter();
 
     const [lista, setLista] = useState<TipoTrabalhos[]>([]);
 
     useEffect(() => {
         const chamadaApi = async () => {
             try {
-                const response = await fetch("http://localhost:3000/api/felipe-sora");
+                const response = await fetch("http://localhost:3000/api/felipe-sora/checkpoint");
                 const data = await response.json();
                 console.log(data);
 
@@ -33,6 +37,25 @@ export default function Sora() {
         chamadaApi();
     }, []);
 
+    const handleDelete = async (id: number) => {
+        try {
+            const response = await fetch(`http://localhost:3000/api/felipe-sora/checkpoint/${id}`, {
+                method: 'DELETE',
+            });
+    
+            if (response.ok) {
+                alert("Trabalho removido com sucesso!");
+                // Atualizar a lista sem navegar para outra página
+                setLista(prev => prev.filter(trabalho => trabalho.id !== id));
+            } else {
+                alert("Falha ao remover o trabalho!");
+            }
+        } catch (error) {
+            console.error("Falha ao remover trabalho.", error);
+        }
+    };
+    
+
 
     return (
         <div className="container_trabalhos">
@@ -46,9 +69,9 @@ export default function Sora() {
                         <p className="texto_caixa">Matéria: {trabalho.materia}</p>
                         <div className="texto_icones_caixa">
                             <p className="texto_caixa">Nota: {trabalho.nota}</p>
-                            <div>
-                                <button className="botoes_trabalhos"><Image src={iconeEditar} alt="Icone de Editar" className="icones"/></button>
-                                <button className="botoes_trabalhos"><Image src={iconeApagar} alt="Icone de Apagar" className="icones"/></button>
+                            <div className="icones_caixa">
+                                <Link href="#" className="botoes_trabalhos"><Image src={iconeEditar} alt="Icone de Editar" className="icones"/></Link>
+                                <Link href="#" onClick={() => handleDelete(trabalho.id)}  className="botoes_trabalhos"><Image src={iconeApagar} alt="Icone de Apagar" className="icones"/></Link>
                             </div>
                         </div>
                     </div>

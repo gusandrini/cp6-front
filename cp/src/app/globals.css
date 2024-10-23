@@ -191,6 +191,10 @@ header{
   @apply w-[42px] h-[42px];
 }
 
+.icones_caixa{
+  @apply flex
+}
+
 .botoes_trabalhos{
   @apply transition-transform duration-300 ease-in-out;
 }

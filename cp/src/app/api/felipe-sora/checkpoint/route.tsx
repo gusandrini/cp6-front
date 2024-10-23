@@ -17,6 +17,8 @@ export async function GET() {
     }
 }
 
+
+// Método POST CHECKPOINTS FELIPE SORA
 export async function POST(request: Request) {
     try {
         const file = await fs.readFile(process.cwd() + '/src/data/felipe-sora.json', 'utf-8');

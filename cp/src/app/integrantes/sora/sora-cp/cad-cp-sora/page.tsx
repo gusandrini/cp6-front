@@ -21,7 +21,7 @@ export default function CadCpSora() {
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost:3000/api/felipe-sora",{
+            const response = await fetch("http://localhost:3000/api/felipe-sora/checkpoint",{
                 method: "POST",
                 headers:{
                   "Content-Type": "application/json",
