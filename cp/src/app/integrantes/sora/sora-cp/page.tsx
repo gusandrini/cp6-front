@@ -70,7 +70,7 @@ export default function Sora() {
                         <div className="texto_icones_caixa">
                             <p className="texto_caixa">Nota: {trabalho.nota}</p>
                             <div className="icones_caixa">
-                                <Link href="#" className="botoes_trabalhos"><Image src={iconeEditar} alt="Icone de Editar" className="icones"/></Link>
+                                <Link href={`/integrantes/sora/sora-cp/cp/${trabalho.id}`} className="botoes_trabalhos"><Image src={iconeEditar} alt="Icone de Editar" className="icones"/></Link>
                                 <Link href="#" onClick={() => handleDelete(trabalho.id)}  className="botoes_trabalhos"><Image src={iconeApagar} alt="Icone de Apagar" className="icones"/></Link>
                             </div>
                         </div>
