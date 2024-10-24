@@ -1,0 +1,29 @@
+{
+  "checkpoints": [
+    {
+      "id": 1,
+      "nome": "teste-cp-Eduarda",
+      "materia": "teste",
+      "descricao": "teste",
+      "nota": 9
+    }
+  ],
+  "globalSolution": [
+    {
+      "id": 1,
+      "nome": "teste-gs-Eduarda",
+      "materia": "teste",
+      "descricao": "teste",
+      "nota": 70
+    }
+  ],
+  "challenge": [
+    {
+      "id": 1,
+      "nome": "teste-challenge-Eduarda",
+      "materia": "teste",
+      "descricao": "teste",
+      "nota": 94
+    }
+  ]
+}
