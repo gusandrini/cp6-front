@@ -118,7 +118,7 @@ header{
 }
 
 .foto_integrante {
-  @apply pt-[30px];
+  @apply pt-[30px] w-[200px] h-[250px];
 }
 
 .links_integrantes {
