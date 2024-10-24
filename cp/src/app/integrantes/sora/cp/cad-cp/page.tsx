@@ -32,7 +32,7 @@ export default function CadCpSora() {
             if(response.ok) {
                 setTrabalho({id:0,nome:"",descricao:"",materia:"", nota: 0});
                 alert("Trabalho cadastrado com sucesso!");
-                navigate.push("/integrantes/sora/sora-cp");
+                navigate.push("/integrantes/sora/cp");
             } else{
                 alert("Erro ao cadastrar produto!");
             }

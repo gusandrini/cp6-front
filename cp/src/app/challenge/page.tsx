@@ -22,10 +22,10 @@ export default function Challenge() {
                 <h1>Nossa Equipe</h1>
                 <nav>
                     <ul>
-                        <li><Image src={fotoEduarda} width={182} height={176} alt="Foto Eduarda" className="foto_integrante"/><Link href="/integrantes/duda/duda-challenge" className="links_integrantes">Eduarda Tiemi</Link></li>
-                        <li><Image src={Github} width={182} height={176} alt="Foto Felipe Pizzinato" className="foto_integrante"/><Link href="/integrantes/pizzi/pizzi-challenge" className="links_integrantes">Felipe Pizzinato</Link></li>
-                        <li><Image src={fotoFelipeSora} width={182} height={176} alt="Foto Felipe Sora" className="foto_integrante"/><Link href="/integrantes/sora/sora-challenge" className="links_integrantes">Felipe Sora</Link></li>
-                        <li><Image src={fotoGustavo} width={182} height={176} alt="Foto Gustavo" className="foto_integrante"/><Link href="/integrantes/gu/gu-challenge" className="links_integrantes">Gustavo Sandrini</Link></li>
+                        <li><Image src={fotoEduarda} width={182} height={176} alt="Foto Eduarda" className="foto_integrante"/><Link href="/integrantes/duda/challenge" className="links_integrantes">Eduarda Tiemi</Link></li>
+                        <li><Image src={Github} width={182} height={176} alt="Foto Felipe Pizzinato" className="foto_integrante"/><Link href="/integrantes/pizzi/challenge" className="links_integrantes">Felipe Pizzinato</Link></li>
+                        <li><Image src={fotoFelipeSora} width={182} height={176} alt="Foto Felipe Sora" className="foto_integrante"/><Link href="/integrantes/sora/challenge" className="links_integrantes">Felipe Sora</Link></li>
+                        <li><Image src={fotoGustavo} width={182} height={176} alt="Foto Gustavo" className="foto_integrante"/><Link href="/integrantes/gu/challenge" className="links_integrantes">Gustavo Sandrini</Link></li>
                     </ul>
                 </nav>
             </div>

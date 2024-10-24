@@ -21,7 +21,7 @@ export default function CadCpSora() {
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost:3000/api/felipe-sora/global-solution",{
+            const response = await fetch("http://localhost:3000/api/felipe-sora/challenge",{
                 method: "POST",
                 headers:{
                   "Content-Type": "application/json",
@@ -32,7 +32,7 @@ export default function CadCpSora() {
             if(response.ok) {
                 setTrabalho({id:0,nome:"",descricao:"",materia:"", nota: 0});
                 alert("Trabalho cadastrado com sucesso!");
-                navigate.push("/integrantes/sora/sora-gs");
+                navigate.push("/integrantes/sora/challenge");
             } else{
                 alert("Erro ao cadastrar produto!");
             }
@@ -45,25 +45,25 @@ export default function CadCpSora() {
 
     return(
         <div className="container_cadastro">
-            <h1>Cadastro de Global Solution</h1>
+            <h1>Cadastro de CheckPoint</h1>
                 <form onSubmit={handleSubmit} className="container_formulario">
                     <div className="label_input">
-                        <label htmlFor="idNome">Nome do Global Solution:</label>
-                        <input type="text" name="nome" id="idNome" className="text-black"  value={trabalho.nome} onChange={(e)=> setTrabalho({...trabalho,nome:e.target.value})} placeholder="Nome do Global Solution"/>
+                        <label htmlFor="idNome">Nome do Checkpoint:</label>
+                        <input type="text" name="nome" id="idNome" className="text-black"  value={trabalho.nome} onChange={(e)=> setTrabalho({...trabalho,nome:e.target.value})} placeholder="Nome do CheckPoint"/>
                     </div>
 
                     <div className="label_input">
-                        <label htmlFor="idDescricao">Descrição do Global Solution:</label>
-                        <input type="text" name="descricao" id="idDescricao" className="text-black" value={trabalho.descricao} onChange={(e)=> setTrabalho({...trabalho,descricao:e.target.value})} placeholder="Descrição do Global Solution"/>
+                        <label htmlFor="idDescricao">Descrição do Checkpoint:</label>
+                        <input type="text" name="descricao" id="idDescricao" className="text-black" value={trabalho.descricao} onChange={(e)=> setTrabalho({...trabalho,descricao:e.target.value})} placeholder="Descrição do CheckPoint"/>
                     </div>
 
                     <div className="label_input">
-                        <label htmlFor="idMateria">Matéria do Global Solution:</label>
-                        <input type="text" name="materia" id="idMateria" className="text-black" value={trabalho.materia} onChange={(e)=> setTrabalho({...trabalho,materia:e.target.value})} placeholder="Matéria do Global Solution"/>
+                        <label htmlFor="idMateria">Matéria do CheckPoint:</label>
+                        <input type="text" name="materia" id="idMateria" className="text-black" value={trabalho.materia} onChange={(e)=> setTrabalho({...trabalho,materia:e.target.value})} placeholder="Matéria do CheckPoint"/>
                     </div>
 
                     <div className="label_input">
-                        <label htmlFor="idNota">Nota do Global Solution:</label>
+                        <label htmlFor="idNota">Nota do CheckPoint:</label>
                         <input type="number" name="nota" id="idNota" className="text-black" value={trabalho.nota} onChange={(e)=> setTrabalho({...trabalho,nota: parseInt(e.target.value) })}/>
                     </div>
 

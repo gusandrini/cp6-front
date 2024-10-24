@@ -20,15 +20,15 @@ export default function Sora() {
     useEffect(() => {
         const chamadaApi = async () => {
             try {
-                const response = await fetch("http://localhost:3000/api/felipe-sora/global-solution");
+                const response = await fetch("http://localhost:3000/api/felipe-sora/challenge");
                 const data = await response.json();
                 console.log(data);
 
-                // Filtrando apenas os dados de 'globalSolution'
-                if (data && data.globalSolution) {
-                    setLista(data.globalSolution);
+                // Filtrando apenas os dados de 'challenge'
+                if (data && data.challenge) {
+                    setLista(data.challenge);
                 } else {
-                    console.error("Dados de globalSolution não encontrados.");
+                    console.error("Dados de challenge não encontrados.");
                 }
             } catch (error) {
                 console.error("Erro ao buscar dados:", error);
@@ -39,7 +39,7 @@ export default function Sora() {
 
     const handleDelete = async (id: number) => {
         try {
-            const response = await fetch(`http://localhost:3000/api/felipe-sora/global-solution/${id}`, {
+            const response = await fetch(`http://localhost:3000/api/felipe-sora/challenge/${id}`, {
                 method: 'DELETE',
             });
     
@@ -59,7 +59,7 @@ export default function Sora() {
 
     return (
         <div className="container_trabalhos">
-            <h1>GlobalSolution - Felipe Sora</h1>
+            <h1>Challenge - Felipe Sora</h1>
             {Array.isArray(lista) && lista.map((trabalho) => (
                 <div key={trabalho.id} className="caixa_trabalhos">
                     <Image src={iconeCheck} alt="Icone de Check" className="icone_check"/>
@@ -70,7 +70,7 @@ export default function Sora() {
                         <div className="texto_icones_caixa">
                             <p className="texto_caixa">Nota: {trabalho.nota}</p>
                             <div className="icones_caixa">
-                                <Link href={`/integrantes/sora/sora-gs/gs/${trabalho.id}`} className="botoes_trabalhos"><Image src={iconeEditar} alt="Icone de Editar" className="icones"/></Link>
+                                <Link href={`/integrantes/sora/challenge/challenge/${trabalho.id}`} className="botoes_trabalhos"><Image src={iconeEditar} alt="Icone de Editar" className="icones"/></Link>
                                 <Link href="#" onClick={() => handleDelete(trabalho.id)}  className="botoes_trabalhos"><Image src={iconeApagar} alt="Icone de Apagar" className="icones"/></Link>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ export default function Sora() {
                 </div>
             ))}
             <div className="caixa_adicionar">
-                <Link href="/integrantes/sora/sora-gs/cad-gs-sora" className="links_adiconar"><Image src={iconeAdicionar} alt="Icone de Adicionar" className="icone_adicionar"/></Link>
+                <Link href="/integrantes/sora/challenge/cad-challenge" className="links_adiconar"><Image src={iconeAdicionar} alt="Icone de Adicionar" className="icone_adicionar"/></Link>
             </div>
         </div>
     );

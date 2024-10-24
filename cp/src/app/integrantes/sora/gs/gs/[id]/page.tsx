@@ -23,12 +23,12 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
             if (!isNaN(id)) {
                 const chamadaApi = async () => {
                     try {
-                        // Fazer a requisição para obter o checkpoint específico
-                        const response = await fetch(`http://localhost:3000/api/felipe-sora/checkpoint/${id}`);
+                        // Fazer a requisição para obter o globalSolution específico
+                        const response = await fetch(`http://localhost:3000/api/felipe-sora/global-solution/${id}`);
                         const data = await response.json();
                         setTrabalho(data);
                     } catch (error) {
-                        console.error("Erro ao buscar dados do checkpoint: ", error);
+                        console.error("Erro ao buscar dados do globalSolution: ", error);
                     }
                 };
                 chamadaApi();
@@ -50,8 +50,8 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
                 return;
             }
 
-            // Fazer a requisição para atualizar o checkpoint específico
-            const response = await fetch(`http://localhost:3000/api/felipe-sora/checkpoint/${id}`, {
+            // Fazer a requisição para atualizar o globalSolution específico
+            const response = await fetch(`http://localhost:3000/api/felipe-sora/global-solution/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
@@ -60,7 +60,7 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
             });
 
             if (response.ok) {
-                alert("Checkpoint atualizado com sucesso!");
+                alert("globalSolution atualizado com sucesso!");
                 setTrabalho({
                     id: 0,
                     nome: "",
@@ -69,22 +69,22 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
                     nota: 0,
                 });
 
-                navigate.push("/integrantes/sora/sora-cp");
+                navigate.push("/integrantes/sora/gs");
             } else {
                 const errorData = await response.json();
-                console.error("Erro ao atualizar checkpoint: ", errorData.error);
-                alert("Erro ao atualizar checkpoint: " + errorData.error);
+                console.error("Erro ao atualizar globalSolution: ", errorData.error);
+                alert("Erro ao atualizar globalSolution: " + errorData.error);
             }
 
         } catch (error) {
-            console.error("Erro ao atualizar checkpoint: ", error);
+            console.error("Erro ao atualizar globalSolution: ", error);
         }
     };
 
     return (
         <div>
             <div className="container_cadastro">
-                <h1>Atualização de CheckPoint</h1>
+                <h1>Atualização de Global Solution</h1>
                 <form onSubmit={handleSubmit}>
                     <div className="label_input">
                         <label htmlFor="idNome">Nome do Trabalho:</label>

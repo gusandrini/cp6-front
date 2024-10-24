@@ -23,12 +23,12 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
             if (!isNaN(id)) {
                 const chamadaApi = async () => {
                     try {
-                        // Fazer a requisição para obter o globalSolution específico
-                        const response = await fetch(`http://localhost:3000/api/felipe-sora/global-solution/${id}`);
+                        // Fazer a requisição para obter o challenge específico
+                        const response = await fetch(`http://localhost:3000/api/felipe-sora/challenge/${id}`);
                         const data = await response.json();
                         setTrabalho(data);
                     } catch (error) {
-                        console.error("Erro ao buscar dados do globalSolution: ", error);
+                        console.error("Erro ao buscar dados do challenge: ", error);
                     }
                 };
                 chamadaApi();
@@ -50,8 +50,8 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
                 return;
             }
 
-            // Fazer a requisição para atualizar o globalSolution específico
-            const response = await fetch(`http://localhost:3000/api/felipe-sora/global-solution/${id}`, {
+            // Fazer a requisição para atualizar o challenge específico
+            const response = await fetch(`http://localhost:3000/api/felipe-sora/challenge/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
@@ -60,7 +60,7 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
             });
 
             if (response.ok) {
-                alert("globalSolution atualizado com sucesso!");
+                alert("challenge atualizado com sucesso!");
                 setTrabalho({
                     id: 0,
                     nome: "",
@@ -69,22 +69,22 @@ export default function CP({ params }: { params: Promise<{ id: number }> }) {
                     nota: 0,
                 });
 
-                navigate.push("/integrantes/sora/sora-gs");
+                navigate.push("/integrantes/sora/challenge");
             } else {
                 const errorData = await response.json();
-                console.error("Erro ao atualizar globalSolution: ", errorData.error);
-                alert("Erro ao atualizar globalSolution: " + errorData.error);
+                console.error("Erro ao atualizar challenge: ", errorData.error);
+                alert("Erro ao atualizar challenge: " + errorData.error);
             }
 
         } catch (error) {
-            console.error("Erro ao atualizar globalSolution: ", error);
+            console.error("Erro ao atualizar challenge: ", error);
         }
     };
 
     return (
         <div>
             <div className="container_cadastro">
-                <h1>Atualização de Global Solution</h1>
+                <h1>Atualização de challenge</h1>
                 <form onSubmit={handleSubmit}>
                     <div className="label_input">
                         <label htmlFor="idNome">Nome do Trabalho:</label>
