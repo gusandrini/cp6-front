@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from "next/image";
 
-import Github from '../../Images/github.png';
+import fotoFelipePizzinato from '../../Images/foto-felipe-pizzinato-750px.jpeg';
 import fotoEduarda from '../../Images/foto-duda-750px.jpg';
 import fotoGustavo from '../../Images/foto-gustavo-750px.jpg';
 import fotoFelipeSora from '../../Images/foto-felipe-sora-750px.jpg'
@@ -22,7 +22,7 @@ export default function Cp() {
                 <nav>
                     <ul>
                         <li><Image src={fotoEduarda} width={182} height={176} alt="Foto Eduarda" className="foto_integrante"/><Link href="/integrantes/duda/cp" className="links_integrantes">Eduarda Tiemi</Link></li>
-                        <li><Image src={Github} width={182} height={176} alt="Foto Felipe Pizzinato" className="foto_integrante"/><Link href="/integrantes/pizzi/cp" className="links_integrantes">Felipe Pizzinato</Link></li>
+                        <li><Image src={fotoFelipePizzinato} width={182} height={176} alt="Foto Felipe Pizzinato" className="foto_integrante"/><Link href="/integrantes/pizzi/cp" className="links_integrantes">Felipe Pizzinato</Link></li>
                         <li><Image src={fotoFelipeSora} width={182} height={176} alt="Foto Felipe Sora" className="foto_integrante"/><Link href="/integrantes/sora/cp" className="links_integrantes">Felipe Sora</Link></li>
                         <li><Image src={fotoGustavo} width={182} height={176} alt="Foto Gustavo" className="foto_integrante"/><Link href="/integrantes/gu/cp" className="links_integrantes">Gustavo Sandrini</Link></li>
                     </ul>
