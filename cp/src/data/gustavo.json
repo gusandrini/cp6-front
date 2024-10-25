@@ -2,27 +2,335 @@
   "checkpoints": [
     {
       "id": 1,
-      "nome": "teste-cp-Gustavo",
-      "materia": "teste",
-      "descricao": "teste",
-      "nota": 9
+      "nome": "Checkpoint AI - Chatbot IBM",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "descricao": " Criar um chatbot IBM Watson",
+      "nota": 100
+    },
+    {
+      "id": 2,
+      "nome": "Checkpoint 2 ",
+      "descricao": "Aprimoramento do chatbot IBM Watson",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 80
+    },
+    {
+      "id": 3,
+      "nome": "Checkpoint 1 - 2 semestre",
+      "descricao": "Análise exploratória de dados",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 90
+    },
+    {
+      "id": 4,
+      "nome": "Checkpoint 2 - 2 semestre",
+      "descricao": "Machine Learning e EDA",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 90
+    },
+    {
+      "id": 5,
+      "nome": "1º Checkpoint",
+      "descricao": "Criar Modelo relacional de banco de dados",
+      "materia": "Building Relational Database",
+      "nota": 90
+    },
+    {
+      "id": 6,
+      "nome": "3º Checkpoint",
+      "descricao": "Criar um SGDB de um hospital",
+      "materia": "Building Relational Database",
+      "nota": 80
+    },
+    {
+      "id": 7,
+      "nome": "1o_Checkpoint",
+      "descricao": "Modelo DDL",
+      "materia": "Building Relational Database",
+      "nota": 50
+    },
+    {
+      "id": 8,
+      "nome": "2o_Checkpoint",
+      "descricao": "Modelo DDL e DML",
+      "materia": "Building Relational Database",
+      "nota": 73
+    },
+    {
+      "id": 9,
+      "nome": "Checkpoint 1",
+      "descricao": " Projeto com conceitos básicos de Python",
+      "materia": "Computational Thinking Using Python",
+      "nota": 93
+    },
+    {
+      "id": 10,
+      "nome": "Checkpoint 3",
+      "descricao": "Manipulação de dados através de funções, listas e lista",
+      "materia": "Computational Thinking Using Python",
+      "nota": 80
+    },
+    {
+      "id": 11,
+      "nome": "Checkpoint 4",
+      "descricao": "Jogo da velha",
+      "materia": "Computational Thinking Using Python",
+      "nota": 90
+    },
+    {
+      "id": 12,
+      "nome": "Checkpoint 5 ",
+      "descricao": "Algoritmos de ordenação",
+      "materia": "Computational Thinking Using Python",
+      "nota": 60
+    },
+    {
+      "id": 13,
+      "nome": "Checkpoint 1 ",
+      "descricao": "Projeto com conceitos básicos de Java",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 95
+    },
+    {
+      "id": 14,
+      "nome": "Checkpoint 2 ",
+      "descricao": " Projeto com getters e setters",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 90
+    },
+    {
+      "id": 15,
+      "nome": "Checkpoint 4",
+      "descricao": "Interface DragonBallSuper",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 80
+    },
+    {
+      "id": 16,
+      "nome": "Checkpoint 5",
+      "descricao": "",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 95
+    },
+    {
+      "id": 17,
+      "nome": "Checkpoint 1",
+      "descricao": " Cursos FIAP",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 90
+    },
+    {
+      "id": 18,
+      "nome": "Checkpoint 2 ",
+      "descricao": "Implementação de Protótipo",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 100
+    },
+    {
+      "id": 19,
+      "nome": "Checkpoint 1 - 2 semestre",
+      "descricao": "SPA / Livraria",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 60
+    },
+    {
+      "id": 20,
+      "nome": "Checkpoint 2 - 2 semestre",
+      "descricao": "Worlds in Collision",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 55
+    },
+    {
+      "id": 21,
+      "nome": "Checkpoint 1",
+      "descricao": "Pitch",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 65
+    },
+    {
+      "id": 22,
+      "nome": "Checkpoint 2 ",
+      "descricao": " 4 Ps + Canvas",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 95
+    },
+    {
+      "id": 23,
+      "nome": "Checkpoint 1 - 2 semestre",
+      "descricao": " As 10 Heurísticas de Nielsen",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 100
+    },
+    {
+      "id": 24,
+      "nome": "Checkpoint 2 - 2 semestre",
+      "descricao": " Diagrama de Sequência e de Atividades",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 85
     }
   ],
   "globalSolution": [
     {
       "id": 1,
-      "nome": "teste-gs-Gustavo",
-      "materia": "teste",
-      "descricao": "teste",
+      "nome": "Global Solutions",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "descricao": " Economia Azul",
+      "nota": 80
+    },
+    {
+      "id": 2,
+      "nome": "Global Solutions",
+      "descricao": " Economia Azul",
+      "materia": "Building Relational Database",
+      "nota": 93
+    },
+    {
+      "id": 3,
+      "nome": "Global Solutions",
+      "descricao": " Economia Azul",
+      "materia": "Computational Thinking Using Python",
+      "nota": 73
+    },
+    {
+      "id": 4,
+      "nome": "Global Solutions",
+      "descricao": " Economia Azul",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 65
+    },
+    {
+      "id": 5,
+      "nome": "Global Solutions",
+      "descricao": " Economia Azul",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
       "nota": 70
     }
   ],
   "challenge": [
     {
       "id": 1,
-      "nome": "teste-challenge-Gustavo",
-      "materia": "teste",
-      "descricao": "teste",
+      "nome": "Challenge Sprint 1",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "descricao": "Criação do chatbot",
+      "nota": 70
+    },
+    {
+      "id": 2,
+      "nome": "Challenge Sprint 2",
+      "descricao": "Implementação do chatbot",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 84
+    },
+    {
+      "id": 3,
+      "nome": "Challenge Sprint 3",
+      "descricao": "Base de dados para treinamento de IA",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 100
+    },
+    {
+      "id": 4,
+      "nome": "Challenge Sprints 1",
+      "descricao": "Criar o o banco de dados no SQLDeveloper oracle",
+      "materia": "Building Relational Database",
+      "nota": 85
+    },
+    {
+      "id": 5,
+      "nome": "Challenge Sprints 2",
+      "descricao": "ontinue  a  implementação do seu Projeto de Banco de Dados Relacional",
+      "materia": "Building Relational Database",
+      "nota": 80
+    },
+    {
+      "id": 6,
+      "nome": "Challenge Sprints 3",
+      "descricao": "Criar o modelo físico",
+      "materia": "Building Relational Database",
+      "nota": 80
+    },
+    {
+      "id": 7,
+      "nome": "Challenge Sprint 1",
+      "descricao": "Implementar um programa em Python que aborde o desafio proposto",
+      "materia": "Computational Thinking Using Python",
+      "nota": 67
+    },
+    {
+      "id": 8,
+      "nome": "Challenge Sprint 2",
+      "descricao": "atualizar o Sumário, o Descritivo do Projeto ",
+      "materia": "Computational Thinking Using Python",
+      "nota": 45
+    },
+    {
+      "id": 9,
+      "nome": "Challenge Sprint 3",
+      "descricao": "definição de funções para organizar, filtrar e armazenar os dados em sequências ",
+      "materia": "Computational Thinking Using Python",
+      "nota": 75
+    },
+    {
+      "id": 10,
+      "nome": "Challenge Sprint 1",
+      "descricao": "Iniciar projeto",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 92
+    },
+    {
+      "id": 11,
+      "nome": "Checkpoint 2 ",
+      "descricao": "Criação do projeto Java com todas as classes, atributos e em seus devidos pacotes",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 76
+    },
+    {
+      "id": 12,
+      "nome": "Checkpoint 3",
+      "descricao": "mplementação da camada e classe DAO",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 60
+    },
+    {
+      "id": 13,
+      "nome": "Challenge Sprint 1",
+      "descricao": "Desenvolvimento front-end",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 50
+    },
+    {
+      "id": 14,
+      "nome": "Challenge Sprint 2",
+      "descricao": "Experiencia de usuário responsiva",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 50
+    },
+    {
+      "id": 15,
+      "nome": "Challenge Sprint 3",
+      "descricao": "Projeto feito em vite-react",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 50
+    },
+    {
+      "id": 16,
+      "nome": "Challenge Sprint 1",
+      "descricao": "DESCRIÇÃO DA SOLUÇÃO",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 80
+    },
+    {
+      "id": 17,
+      "nome": "Challenge Sprint 2",
+      "descricao": "Complementação da sprint anterior",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 87
+    },
+    {
+      "id": 18,
+      "nome": "Challenge Sprint 3",
+      "descricao": " PRODUCT BACKLOG ATUALIZADO e DIAGRAMA DE ATIVIDADES",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
       "nota": 100
     }
   ]
