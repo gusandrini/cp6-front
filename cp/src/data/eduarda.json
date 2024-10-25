@@ -2,28 +2,98 @@
   "checkpoints": [
     {
       "id": 1,
-      "nome": "teste-cp-Eduarda",
-      "materia": "teste",
-      "descricao": "teste",
+      "nome": "CP 2 - Diagrama de Sequência e de Atividades",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "descricao": "Diagrama de sequência e atividade",
+      "nota": 10
+    },
+    {
+      "id": 2,
+      "nome": "CP2 - Worlds in Collision",
+      "descricao": "Avaliação de desenvolvimento de aplicação NEXT.js + TYPESCRIPT",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 6
+    },
+    {
+      "id": 3,
+      "nome": "Checkpoint 4 - Java",
+      "descricao": "DDD Using Java",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
       "nota": 9
     }
   ],
   "globalSolution": [
     {
       "id": 1,
-      "nome": "teste-gs-Eduarda",
-      "materia": "teste",
-      "descricao": "teste",
+      "nome": "Global Solution - 27/05",
+      "materia": "Building Relational Database",
+      "descricao": "Economia Azul",
+      "nota": 100
+    },
+    {
+      "id": 2,
+      "nome": "Global Solution - 27/05",
+      "descricao": "Economia Azul",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT\t",
+      "nota": 80
+    },
+    {
+      "id": 3,
+      "nome": "Global Solution - 27/05",
+      "descricao": "Economia Azul",
+      "materia": "Computational Thinking Using Python",
+      "nota": 75
+    },
+    {
+      "id": 4,
+      "nome": "Global Solution - 27/05",
+      "descricao": "Economia Azul",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 65
+    },
+    {
+      "id": 5,
+      "nome": "Global Solution - 27/05",
+      "descricao": "Economia Azul",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 65
+    },
+    {
+      "id": 6,
+      "nome": "Global Solution - 27/05",
+      "descricao": "Economia Azul",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
       "nota": 70
     }
   ],
   "challenge": [
     {
       "id": 1,
-      "nome": "teste-challenge-Eduarda",
-      "materia": "teste",
-      "descricao": "teste",
-      "nota": 94
+      "nome": "Challenge Porto Seguro",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "descricao": "Sprint 3",
+      "nota": 100
+    },
+    {
+      "id": 2,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 3",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 100
+    },
+    {
+      "id": 3,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 3",
+      "materia": "Computational Thinking Using Python",
+      "nota": 75
+    },
+    {
+      "id": 4,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 3",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 50
     }
   ]
 }
