@@ -132,10 +132,45 @@
   "challenge": [
     {
       "id": 1,
-      "nome": "teste-challenge-Pizzi",
-      "materia": "teste",
-      "descricao": "teste",
-      "nota": 100
+      "nome": "Challenge",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "descricao": "Criar um dataset para uma futura ML",
+      "nota": 75
+    },
+    {
+      "id": 2,
+      "nome": "Challenge",
+      "descricao": "Criar o o banco de dados no SQLDeveloper oracle",
+      "materia": "Building Relational Database",
+      "nota": 70
+    },
+    {
+      "id": 3,
+      "nome": "Challenge",
+      "descricao": "Criar um sistema funcional com o CRUD ",
+      "materia": "Computational Thinking Using Python",
+      "nota": 95
+    },
+    {
+      "id": 4,
+      "nome": " Challenge",
+      "descricao": "Criar um sistema funcional com o CRUD ",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 0
+    },
+    {
+      "id": 5,
+      "nome": "FRONT-END DESIGN ENGINEERING",
+      "descricao": "Criar páginas web com React",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 90
+    },
+    {
+      "id": 6,
+      "nome": "Challenge",
+      "descricao": "Criar apresentações e modelo de negócio",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 90
     }
   ]
 }
