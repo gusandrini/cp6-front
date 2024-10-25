@@ -5,21 +5,21 @@
       "nome": "CP 2 - Diagrama de Sequência e de Atividades",
       "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
       "descricao": "Diagrama de sequência e atividade",
-      "nota": 10
+      "nota": 100
     },
     {
       "id": 2,
       "nome": "CP2 - Worlds in Collision",
       "descricao": "Avaliação de desenvolvimento de aplicação NEXT.js + TYPESCRIPT",
       "materia": "FRONT-END DESIGN ENGINEERING",
-      "nota": 6
+      "nota": 60
     },
     {
       "id": 3,
       "nome": "Checkpoint 4 - Java",
       "descricao": "DDD Using Java",
       "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
-      "nota": 9
+      "nota": 90
     }
   ],
   "globalSolution": [
