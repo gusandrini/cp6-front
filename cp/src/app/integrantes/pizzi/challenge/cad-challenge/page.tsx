@@ -64,7 +64,7 @@ export default function CadCpPizzinato() {
 
                     <div className="label_input">
                         <label htmlFor="idNota">Nota do Challenge:</label>
-                        <input type="number" name="nota" id="idNota" className="text-black" value={trabalho.nota} onChange={(e)=> setTrabalho({...trabalho,nota: parseInt(e.target.value) })}/>
+                        <input type="number" name="nota" id="idNota" className="text-black" value={trabalho.nota} onChange={(e)=> setTrabalho({...trabalho,nota: parseFloat(e.target.value) })}/>
                     </div>
 
                     <div>

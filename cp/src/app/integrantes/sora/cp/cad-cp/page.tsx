@@ -64,7 +64,7 @@ export default function CadCpSora() {
 
                     <div className="label_input">
                         <label htmlFor="idNota">Nota do CheckPoint:</label>
-                        <input type="number" name="nota" id="idNota" className="text-black" value={trabalho.nota} onChange={(e)=> setTrabalho({...trabalho,nota: parseInt(e.target.value) })}/>
+                        <input type="number" name="nota" id="idNota" className="text-black" value={trabalho.nota} onChange={(e)=> setTrabalho({...trabalho,nota: parseFloat(e.target.value) })}/>
                     </div>
 
                     <div>
