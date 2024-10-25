@@ -5,14 +5,14 @@
       "nome": "Checkpoint AI - Chatbot IBM",
       "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
       "descricao": "Criar um chatbot IBM Watson",
-      "nota": 9
+      "nota": 90
     },
     {
       "id": 2,
       "nome": "Checkpoint 3",
       "descricao": "Prova sobre fluxos do Node-RED",
       "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
-      "nota": 8
+      "nota": 80
     },
     {
       "id": 3,
@@ -26,7 +26,7 @@
       "nome": "3º Checkpoint - Primeiro semestre - Database",
       "descricao": "Criar um SGDB de um hospital",
       "materia": "Building Relational Database",
-      "nota": 7
+      "nota": 70
     },
     {
       "id": 5,
@@ -40,42 +40,42 @@
       "nome": "Checkpoint 2",
       "descricao": "2 Projetos envolvendo estruturas de repetição",
       "materia": "Computational Thinking Using Python",
-      "nota": 8
+      "nota": 80
     },
     {
       "id": 7,
       "nome": "Checkpoint 1",
       "descricao": "Projeto com conceitos básicos de Java",
       "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
-      "nota": 10
+      "nota": 100
     },
     {
       "id": 8,
       "nome": "Checkpoint 2",
       "descricao": "Projeto com getters e setters",
       "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
-      "nota": 10
+      "nota": 100
     },
     {
       "id": 9,
       "nome": "CP1 - Cursos FIAP",
       "descricao": "Início de front end (HTML)",
       "materia": "FRONT-END DESIGN ENGINEERING 1º Semestre",
-      "nota": 10
+      "nota": 100
     },
     {
       "id": 10,
       "nome": "CP2 - Implementação de Protótipo",
       "descricao": "Página HTML com CSS",
       "materia": "FRONT-END DESIGN ENGINEERING",
-      "nota": 10
+      "nota": 100
     },
     {
       "id": 11,
       "nome": "1º CP - Pitch",
       "descricao": "Apresentação de Pitch",
       "materia": "1º CP - Pitch",
-      "nota": 7
+      "nota": 70
     },
     {
       "id": 12,
