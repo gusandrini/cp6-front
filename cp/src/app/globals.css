@@ -246,6 +246,16 @@ header{
   @apply scale-110;
 }
 
+/* pagina de erro */
+.NotFound {
+  @apply flex flex-col items-center mb-1; /* For margin-bottom, use a Tailwind spacing class like mb-2 or mb-4 */
+}
+
+.foto_erro {
+  @apply w-[25vw];
+}
+
+
 /* Responsividade */
 
 @media (max-width: 1650px) {
