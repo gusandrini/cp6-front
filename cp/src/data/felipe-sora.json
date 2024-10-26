@@ -3,27 +3,188 @@
     {
       "id": 1,
       "nome": "Jogo da Velha",
-      "materia": "python",
+      "materia": "Python",
       "descricao": "Um jogo da velha feito em Python",
       "nota": 9
+    },
+    {
+      "id": 2,
+      "nome": "CheckPoint - Data da Páscoa",
+      "descricao": "Programa que calcula a data da Páscoa de acordo com o ano",
+      "materia": "Python",
+      "nota": 10
+    },
+    {
+      "id": 3,
+      "nome": "Estruturas de Ordenação de Dados",
+      "descricao": "Programa que usa todas as estruturas de ordenação com diferentes tamahos de listas",
+      "materia": "Python",
+      "nota": 7
+    },
+    {
+      "id": 4,
+      "nome": "Checkpoint AI - Chatbot IBM",
+      "descricao": "Criar um chatbot IBM Watson",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 9
+    },
+    {
+      "id": 5,
+      "nome": "Checkpoint 3",
+      "descricao": "Prova sobre fluxos do Node-RED",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 10
+    },
+    {
+      "id": 6,
+      "nome": "Análise Exploratória de Dados (EDA)",
+      "descricao": "Coleta de dados e gráficos para uma EDA",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 9
+    },
+    {
+      "id": 7,
+      "nome": "1º Checkpoint - Primeiro semestre - Database",
+      "descricao": "Criar Modelo relacional de banco de dados",
+      "materia": "Building Relational Database",
+      "nota": 8
+    },
+    {
+      "id": 8,
+      "nome": "1º Checkpoint - Segundo semestre - Database",
+      "descricao": " Instruções DDL e DML - Caso Prático",
+      "materia": "Database",
+      "nota": 9.3
+    },
+    {
+      "id": 9,
+      "nome": "1º Checkpoint - Segundo semestre - Java",
+      "descricao": "Projeto DragonBallSuper - Criação / manipulação de arquivos .txt ",
+      "materia": "Java",
+      "nota": 10
+    },
+    {
+      "id": 10,
+      "nome": "2º Checkpoint - Segundo semestre - Java",
+      "descricao": "Vinculando Java com banco de Dados",
+      "materia": "Java",
+      "nota": 9.5
+    },
+    {
+      "id": 11,
+      "nome": "CP1 - Segundo Semestre - SPA / Livraria",
+      "descricao": "Projeto SPA vite+react Typescript",
+      "materia": "Front-end",
+      "nota": 7
+    },
+    {
+      "id": 12,
+      "nome": "CP2 - Segundo Semestre - Worlds in Collision",
+      "descricao": "Projeto React utilizando API da Nasa",
+      "materia": "Front-end",
+      "nota": 6.5
+    },
+    {
+      "id": 13,
+      "nome": "CP 1 - As 10 Heurísticas de Nielsen",
+      "descricao": "Pesquisa sobre as 10 Heurísticas de Nielsen",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 10
+    },
+    {
+      "id": 14,
+      "nome": "CP 2 - Diagrama de Sequência e de Atividades",
+      "descricao": "Criação diagramas de sequência e atividades",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 7.5
     }
   ],
   "globalSolution": [
     {
       "id": 1,
       "nome": "OceanAlert",
-      "materia": "front-end",
+      "materia": "Front-end",
       "descricao": "Um projeto feito em HTML, CSS, JS para tentar salvar a vida dos oceanos",
       "nota": 70
+    },
+    {
+      "id": 2,
+      "nome": "OceanAlert",
+      "descricao": "Criação de chatbots via IBM Watson e telegram",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 85
+    },
+    {
+      "id": 3,
+      "nome": "Ocean Alert",
+      "descricao": "Criação Modelo relacional de banco de dados",
+      "materia": "Database",
+      "nota": 90
+    },
+    {
+      "id": 4,
+      "nome": "Ocean Alert",
+      "descricao": "Programa de análise de áreas poluídas dos oceanos",
+      "materia": "Python",
+      "nota": 100
+    },
+    {
+      "id": 5,
+      "nome": "Ocean Alert",
+      "descricao": "Sistema de Leituras e Alertas JAVA com JOptionPane",
+      "materia": "Java",
+      "nota": 88
+    },
+    {
+      "id": 6,
+      "nome": "Ocean Alert",
+      "descricao": "Pesquisa e apresentação do perigo das vidas dos oceanos",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 100
     }
   ],
   "challenge": [
     {
       "id": 1,
-      "nome": "Dados para Treinamento de uma IA",
+      "nome": "Sprint 3 - Dados para Treinamento de uma IA",
       "materia": "IA & ChatBot",
       "descricao": "Conjunto de dados para melhorar o desempenho de uma futura IA",
       "nota": 100
+    },
+    {
+      "id": 2,
+      "nome": "Sprint 2 - Front-end",
+      "descricao": "Criação de um site para ajudar os usuários com problemas de carro",
+      "materia": "Front-end",
+      "nota": 85
+    },
+    {
+      "id": 3,
+      "nome": "Sprint 2 - Python ",
+      "descricao": "Menu com estruturas de repetição - projeto da Porto",
+      "materia": "Python",
+      "nota": 100
+    },
+    {
+      "id": 4,
+      "nome": "Sprint 1 - Java",
+      "descricao": "Criação do projeto da porto com diagrama das classes",
+      "materia": "Java",
+      "nota": 85
+    },
+    {
+      "id": 5,
+      "nome": "Sprint 1 - SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "descricao": "Explicação do projeto e possíveis dores",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 90
+    },
+    {
+      "id": 6,
+      "nome": "Sprint 2 - DataBase",
+      "descricao": "Criação Modelo relacional de banco de dados",
+      "materia": "Database",
+      "nota": 85
     }
   ]
 }
