@@ -26,7 +26,7 @@ export default function Rodape() {
                         <div className='redes instagram'>
                             <Image src={Instagram} width={50} height={30} alt="Logo do Instagram" />
                             <ul>
-                                <li><a className='link_redes' target='_blank' rel='noopener' title='Instagram de Eduarda Tiemi' href="https://www.instagram.com/dudatiemiam/profilecard/?igsh=aG4zaGNvZHRka293">Eduarda Tiemi</a></li>
+                                <li><a className='link_redes' target='_blank' rel='noopener' title='Instagram de Eduarda Tiemi' href="https://www.instagram.com/dudatiemiam/?igsh=aG4zaGNvZHRka293">Eduarda Tiemi</a></li>
                                 <li><a className='link_redes' target='_blank' rel='noopener' title='Instagram de Felipe Pizzinato' href="https://www.instagram.com/_pizzinato/?igsh=Z3FoYjhnNmJ5cHR2">Felipe Pizzinato</a></li>
                                 <li><a className='link_redes' target='_blank' rel='noopener' title='Instagram de Felipe Sora' href="https://www.instagram.com/felipesora_/">Felipe Sora</a></li>
                                 <li><a className='link_redes' target='_blank' rel='noopener' title='Instagram de Gustavo Sandrini' href="https://www.instagram.com/sandrini__/?igsh=MW5lYWtycG02MGJydA%3D%3D">Gustavo Sandrini</a></li>
