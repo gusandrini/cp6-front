@@ -2,23 +2,170 @@
   "checkpoints": [
     {
       "id": 1,
-      "nome": "CP 2 - Diagrama de Sequência e de Atividades",
+      "nome": "CP5 - Diagrama de Sequência e de Atividades",
       "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
       "descricao": "Diagrama de sequência e atividade",
       "nota": 100
     },
     {
       "id": 2,
-      "nome": "CP2 - Worlds in Collision",
+      "nome": "CP2 (2º Semestre) - Worlds in Collision",
       "descricao": "Avaliação de desenvolvimento de aplicação NEXT.js + TYPESCRIPT",
       "materia": "FRONT-END DESIGN ENGINEERING",
-      "nota": 60
+      "nota": 55
     },
     {
       "id": 3,
-      "nome": "Checkpoint 4 - Java",
-      "descricao": "DDD Using Java",
+      "nome": "CP4 - DragonBallSuper",
+      "descricao": "Projeto DragonBallSuper - Criação / manipulação de arquivos .txt",
       "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 90
+    },
+    {
+      "id": 4,
+      "nome": "CP4 - Jogo da Velha",
+      "descricao": "Um jogo da velha feito em Python",
+      "materia": "Computational Thinking Using Python",
+      "nota": 90
+    },
+    {
+      "id": 5,
+      "nome": "CP5 - Manipulação de dados",
+      "descricao": "Trabalhar com manipulação de dados através de funções, listas, dicionários e arquivos em Python",
+      "materia": "Computational Thinking Using Python",
+      "nota": 60
+    },
+    {
+      "id": 6,
+      "nome": "CP2 - Saltos em distância e Consumo Veículo",
+      "descricao": "Trabalhar com os conceitos de Algoritmos, Lógica de Programação, Estruturas Condicionais, Estruturas de Repetição e Sequências em linguagem Python",
+      "materia": "Computational Thinking Using Python",
+      "nota": 60
+    },
+    {
+      "id": 7,
+      "nome": "CP1 - Exercício Conta e Calculo do Imposto de Renda",
+      "descricao": "Trabalhar com os conceitos de Algoritmos, Lógica de Programação, Fluxograma e Linguagem Python",
+      "materia": "Computational Thinking Using Python",
+      "nota": 93
+    },
+    {
+      "id": 8,
+      "nome": "CP1 - Despesa Familiar",
+      "descricao": "Criar uma classe DespesaFamiliar em Java",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 95
+    },
+    {
+      "id": 9,
+      "nome": "CP2 - Aluno",
+      "descricao": "Implementar a classe Aluno em Java",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 90
+    },
+    {
+      "id": 10,
+      "nome": "CP5 - Manipulação de banco de dados ",
+      "descricao": "Vinculando Java com banco de Dados",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 95
+    },
+    {
+      "id": 11,
+      "nome": "CP1 (2º Semestre) - SPA / Livraria",
+      "descricao": "Criando um projeto React SPA",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 55
+    },
+    {
+      "id": 12,
+      "nome": "CP2 (1º Semestre) - Implementação de Protótipo",
+      "descricao": "Implementar um protótipo criado no Figma em HTML/CSS seguindo as solicitações propostas e utilizando o Git/GitHub",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 90
+    },
+    {
+      "id": 13,
+      "nome": "CP1 (1º Semestre) - Cursos FIAP",
+      "descricao": "Preparar a estrutura básica para páginas com a apresentação dos cursos da FIAP. ",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 80
+    },
+    {
+      "id": 14,
+      "nome": "CP4 - As 10 Heurísticas de Nielsen",
+      "descricao": "Analisar apps como Ifood, Uber ou  UberEats segundo as heurísticas. ",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 100
+    },
+    {
+      "id": 15,
+      "nome": "CP 2 - 4 Ps + Canvas",
+      "descricao": "Apresentação de Canvas e 4p's do marketing",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 95
+    },
+    {
+      "id": 16,
+      "nome": "CP1 - Pitch",
+      "descricao": "Apresentação de Pitch",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 65
+    },
+    {
+      "id": 17,
+      "nome": "CP4 - DDL ",
+      "descricao": "Instruções DDL * Caso Prático",
+      "materia": "Building Relational Database",
+      "nota": 50
+    },
+    {
+      "id": 18,
+      "nome": "CP5 - DDL_e_DML",
+      "descricao": "Instruções DDL e DML * Caso Prático",
+      "materia": "Building Relational Database",
+      "nota": 78
+    },
+    {
+      "id": 19,
+      "nome": "CP1 - RHSTU Pronto Socorro",
+      "descricao": "Fazer a versão 1.0 do modelo de dados que irá  tratar do assunto “Atendimento feito no Pronto Socorro”",
+      "materia": "Building Relational Database",
+      "nota": 70
+    },
+    {
+      "id": 20,
+      "nome": "CP3 - QUIZ",
+      "descricao": "Questionário sobre banco de dados",
+      "materia": "Building Relational Database",
+      "nota": 80
+    },
+    {
+      "id": 21,
+      "nome": "CP1 - Chatbot IBM",
+      "descricao": "Criar um chatbot IBM Watson",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT\t",
+      "nota": 100
+    },
+    {
+      "id": 22,
+      "nome": "CP2 - Integração com NODE-RED",
+      "descricao": "Integrando o IBM Watson com NODE-RED",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT\t",
+      "nota": 80
+    },
+    {
+      "id": 23,
+      "nome": "CP4 - Análise exploratória dos dados",
+      "descricao": "Desenvolver habilidades de Análise Exploratória de Dados, desde a criação de um conjunto de dados até a análise e visualização utilizando gráficos.",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT\t",
+      "nota": 90
+    },
+    {
+      "id": 24,
+      "nome": "CP5 - EDA e Machine Learning",
+      "descricao": "Análise estatística exploratória da base de dados",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT\t",
       "nota": 90
     }
   ],
@@ -94,6 +241,104 @@
       "descricao": "Sprint 3",
       "materia": "FRONT-END DESIGN ENGINEERING",
       "nota": 50
+    },
+    {
+      "id": 5,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 1",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 50
+    },
+    {
+      "id": 6,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 2",
+      "materia": "FRONT-END DESIGN ENGINEERING",
+      "nota": 50
+    },
+    {
+      "id": 7,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 1",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 92
+    },
+    {
+      "id": 8,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 2",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 76
+    },
+    {
+      "id": 9,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 1",
+      "materia": "Computational Thinking Using Python",
+      "nota": 67
+    },
+    {
+      "id": 10,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 2",
+      "materia": "Computational Thinking Using Python",
+      "nota": 45
+    },
+    {
+      "id": 11,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 1",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 70
+    },
+    {
+      "id": 12,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 2",
+      "materia": "ARTIFICIAL INTELLIGENCE & CHATBOT",
+      "nota": 84
+    },
+    {
+      "id": 13,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 1",
+      "materia": "Building Relational Database",
+      "nota": 85
+    },
+    {
+      "id": 14,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 2",
+      "materia": "Building Relational Database",
+      "nota": 80
+    },
+    {
+      "id": 15,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 1",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 80
+    },
+    {
+      "id": 16,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 2",
+      "materia": "SOFTWARE ENGINEERING AND BUSINESS MODEL",
+      "nota": 87
+    },
+    {
+      "id": 17,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 3",
+      "materia": "DOMAIN DRIVEN DESIGN USING JAVA",
+      "nota": 60
+    },
+    {
+      "id": 18,
+      "nome": "Challenge Porto Seguro",
+      "descricao": "Sprint 3",
+      "materia": "Building Relational Database",
+      "nota": 80
     }
   ]
 }
